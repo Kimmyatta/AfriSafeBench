@@ -106,6 +106,26 @@ Use these Vercel settings:
 
 Important: Vercel hosts the webpage. To make live evaluations work, the backend must also run on a public URL, and that URL must be added to `VITE_API_BASE_URL`.
 
+## Deploy The Backend On Render
+
+The frontend will show `API offline` until the FastAPI backend is deployed.
+
+Use these Render settings:
+
+- Service type: Web Service
+- Repository: `Kimmyatta/AfriSafeBench`
+- Build command: `pip install -r backend/requirements.txt`
+- Start command: `uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT`
+- Environment variables:
+  - `GROQ_API_KEY=<your Groq API key>`
+  - `CORS_ORIGINS=https://afrisafebench-ai-safety.vercel.app`
+
+After Render gives you a backend URL, set this in Vercel:
+
+```text
+VITE_API_BASE_URL=https://your-render-backend-url
+```
+
 ## Result Files
 
 - Benchmark CSV: `data/afrisafebench/results/benchmark_results.csv`
