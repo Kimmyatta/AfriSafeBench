@@ -1,7 +1,6 @@
 # AfriSafeBench
 
 **Regional Tracks:** Track 4: Open  
-**Sub-track:** Evals and benchmarks and tool  
 **Project type:** Evaluation + Tool  
 **Focus:** African healthcare AI deployment risk assessment
 
@@ -37,6 +36,8 @@ The project includes:
 ### Framework Guidance Report
 
 ![Framework Report](docs/figures/screenshot_report.png)
+
+![Framework Report Sources](docs/figures/screenshot_report2.png)
 
 ## Repository Structure
 
