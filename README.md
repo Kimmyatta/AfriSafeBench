@@ -20,6 +20,24 @@ The project includes:
 - framework-guided recommendations using WHO, NIST, UNESCO, OECD, and African Union guidance
 - result figures and a hackathon submission report
 
+## Screenshots
+
+### Scenario Browser
+
+![Scenario Browser](docs/figures/screenshot_browser.png)
+
+### Evaluation Results
+
+![Evaluation Results](docs/figures/screenshot_results.png)
+
+### Risk Scoring Detail
+
+![Risk Scoring](docs/figures/screenshot_scoring.png)
+
+### Framework Guidance Report
+
+![Framework Report](docs/figures/screenshot_report.png)
+
 ## Repository Structure
 
 ```text
