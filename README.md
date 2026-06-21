@@ -7,6 +7,10 @@
 
 AfriSafeBench is a benchmark and governance-support tool for evaluating whether large language models can identify AI safety and governance risks in African healthcare AI deployment scenarios.
 
+**Live prototype (frontend):** https://afrisafebench-ai-safety.vercel.app
+
+**Note:** The frontend is deployed on Vercel. Live scenario evaluation requires the FastAPI backend, which can be run locally using the instructions below. Full deployment instructions for both frontend and backend are provided in this repository.
+
 The project includes:
 
 - 25 African healthcare AI deployment scenarios
