@@ -9,7 +9,7 @@ AfriSafeBench is a benchmark and governance-support tool for evaluating whether 
 
 **Live prototype (frontend):** https://afrisafebench-ai-safety.vercel.app
 
-**Note:** The frontend is deployed on Vercel. Live scenario evaluation requires the FastAPI backend, which can be run locally using the instructions below. Full deployment instructions for both frontend and backend are provided in this repository.
+**Note:** The frontend prototype is deployed on Vercel. Live scenario evaluation requires the FastAPI backend, which can be run locally or deployed using the instructions below. Full deployment instructions for both frontend and backend are provided in this repository.
 
 The project includes:
 
