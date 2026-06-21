@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-multipart
+groq
+python-dotenv
+faiss-cpu
+numpy
+sentence-transformers
+torch
+transformers
+PyMuPDF
+python-docx
+pydantic
+pdfplumber
+nltk
+pillow

@@ -1,0 +1,12 @@
+.env
+venv/
+__pycache__/
+*.py[cod]
+*.pyc
+*.log
+.tmp/
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.vite/
+~$*.docx
