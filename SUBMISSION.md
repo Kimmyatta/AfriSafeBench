@@ -11,7 +11,8 @@ Affiliation: University of St. Thomas, Minnesota
 
 ## Track and Sub-Track
 
-Hackathon track: Open Track  
+Regional Tracks: Track 4: Open  
+Sub-track: Evals and benchmarks and tool  
 Regional focus: Africa / Global South healthcare AI deployment  
 Project type: Evaluation + Tool
 
@@ -29,6 +30,8 @@ Can LLMs identify AI safety and governance risks in African healthcare AI deploy
 
 The project contributes both an evaluation benchmark and a practical tool. The benchmark measures whether models detect expected risk categories. The tool/report mode uses recognized AI governance frameworks to generate recommendations after risks are identified or missed.
 
+I reused only the basic application structure and LLM/API plumbing from an earlier independent compliance app that I had created before this hackathon began. During the hackathon, I built AfriSafeBench as a new AI safety benchmark and tool, including the scenario dataset, African healthcare risk taxonomy, scoring workflow, framework-guided report mode, and model comparison results.
+
 ## 2. Related Work
 
 AfriSafeBench builds on several lines of work:
@@ -41,6 +44,8 @@ AfriSafeBench builds on several lines of work:
 The project differs from generic compliance tools by centering African healthcare deployment conditions. It also differs from a pure chatbot by producing structured benchmark scores, model comparisons, missed-risk analysis, and framework-grounded recommendations.
 
 ## 3. Methodology
+
+I reused the existing application structure and LLM/API plumbing where possible, but refactored the system into a new AI safety evaluation workflow for AfriSafeBench. The benchmark scenarios, risk categories, scoring logic, result compiler, framework-guided recommendation mode, and analysis artifacts were created for this hackathon.
 
 ### 3.1 Scenario Dataset
 

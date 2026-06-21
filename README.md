@@ -1,6 +1,7 @@
 # AfriSafeBench
 
-**Track:** Open Track  
+**Regional Tracks:** Track 4: Open  
+**Sub-track:** Evals and benchmarks and tool  
 **Project type:** Evaluation + Tool  
 **Focus:** African healthcare AI deployment risk assessment
 
@@ -91,6 +92,19 @@ Open the Vite URL, usually:
 ```text
 http://127.0.0.1:5173
 ```
+
+## Deploy The Frontend On Vercel
+
+The frontend can be deployed to Vercel from this GitHub repository.
+
+Use these Vercel settings:
+
+- Framework preset: Vite
+- Build command: `cd frontend && npm ci && npm run build`
+- Output directory: `frontend/dist`
+- Environment variable: `VITE_API_BASE_URL=<your deployed backend API URL>`
+
+Important: Vercel hosts the webpage. To make live evaluations work, the backend must also run on a public URL, and that URL must be added to `VITE_API_BASE_URL`.
 
 ## Result Files
 
