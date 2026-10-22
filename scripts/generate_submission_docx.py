@@ -89,7 +89,7 @@ def save_category_weakness(summary: dict) -> Path:
 
     image = Image.new("RGB", (1600, 1000), PALETTE["paper"])
     draw = ImageDraw.Draw(image)
-    draw_text(draw, (60, 55), "Risk Categories with Lowest Average Coverage", 42, bold=True)
+    draw_text(draw, (60, 55), "Risk Categories by Average Coverage", 42, bold=True)
     draw_text(draw, (60, 105), "Average across evaluated models. Lower scores indicate harder-to-detect governance risks.", 24, fill=PALETTE["muted"])
 
     left, top, bar_w, bar_h, gap = 650, 180, 760, 46, 36

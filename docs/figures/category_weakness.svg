@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
 <rect width="1000" height="620" fill="#ffffff"/>
-<text x="36" y="44" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#17212b" text-anchor="start">Risk Categories with Lowest Average Coverage</text>
+<text x="36" y="44" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#17212b" text-anchor="start">Risk Categories by Average Coverage</text>
 <text x="36" y="72" font-family="Arial, sans-serif" font-size="14" font-weight="400" fill="#607086" text-anchor="start">Average across evaluated models. Lower scores indicate harder-to-detect governance risks.</text>
 <text x="36" y="126" font-family="Arial, sans-serif" font-size="13" font-weight="400" fill="#607086" text-anchor="start">Resource-Constrained Deployment</text>
 <rect x="380" y="105" width="500" height="32" fill="#edf2f6" rx="4"/>

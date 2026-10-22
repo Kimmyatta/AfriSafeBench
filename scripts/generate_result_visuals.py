@@ -108,7 +108,7 @@ def category_weakness_chart(summary: dict) -> None:
     left, top, bar_height, gap = 380, 105, 32, 18
     max_width = 500
     parts = _svg_header(width, height)
-    parts.append(_text(36, 44, "Risk Categories with Lowest Average Coverage", size=24, weight="700"))
+    parts.append(_text(36, 44, "Risk Categories by Average Coverage", size=24, weight="700"))
     parts.append(
         _text(
             36,
